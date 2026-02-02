@@ -192,7 +192,7 @@ video {
   transition: filter 0.4s ease; */
   /* animation: none; */
   opacity: 0.8;
-  transition: opacity 0.8s ease;
+  transition: opacity 0.3s ease;
 }
 
 .image-sections img:hover {
