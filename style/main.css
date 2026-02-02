@@ -69,18 +69,18 @@ video {
     font-size: 80px;
     width: 0;
     animation:
-        typing1 2.5s steps(44) forwards,
+        typing1 4s steps(44) forwards,
         blink 0.7s infinite;
     animation-delay: 1.0s;
 }
 .line2 {
-    font-size: 32px;
+    font-size: 24px;
     margin-top: 15px;
     width: 0;
     animation:
-        typing2 2.5s steps(44) forwards,
+        typing2 3.1s steps(44) forwards,
         blink 0.7s infinite;
-    animation-delay: 2.2s;
+    animation-delay: 2.8s;
 }
 @keyframes typing1 {
     from { width: 0 }
@@ -89,7 +89,7 @@ video {
 
 @keyframes typing2 {
     from { width: 0 }
-    to { width: 50ch }
+    to { width: 75ch }
 }
 
 @keyframes blink {
@@ -414,4 +414,31 @@ video {
   color: blue;
   font-size: 40px;
   text-align: center;
+}
+
+/*GRRIIDD*/
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  grid-template-rows: repeat(2, 1fr);    
+  width: 100vw;
+  height: 100vh;
+}
+
+.cell {
+  background-image: url("image.jpg"); 
+  background-size: cover;              
+  background-position: center;        
+  background-repeat: no-repeat;
+}
+/********/
+.projects-section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.connect img {
+  width: 100%;
+  display: block;
 }
