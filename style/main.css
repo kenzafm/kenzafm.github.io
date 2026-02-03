@@ -188,13 +188,13 @@ video {
   max-width: 100%;  
   height: auto;
   opacity: 0.8;
-  transform: scale(0.99);
-  transition: opacity 0.2s ease, transform 0.92s ease;
+  transform: scale(1.0);
+  transition: opacity 0.2s ease, transform 0.8s ease;
 }
 
 .image-sections img:hover {
   opacity: 1;
-  transform: scale(1);
+  transform: scale(1.01);
 }
 
 #collageImg{
