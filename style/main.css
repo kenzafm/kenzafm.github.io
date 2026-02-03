@@ -187,19 +187,14 @@ video {
   padding: 0;
   max-width: 100%;  
   height: auto;
-
-  /* filter: blur(6px);
-  transition: filter 0.4s ease; */
-  /* animation: none; */
   opacity: 0.8;
-  transition: opacity 0.2s ease;
+  transform: scale(0.99);
+  transition: opacity 0.2s ease, transform 0.92s ease;
 }
 
 .image-sections img:hover {
-  /* filter: blur(0);
-  transition: none; */
-  /* animation: flicker 0.5s linear forwards; */
   opacity: 1;
+  transform: scale(1);
 }
 
 #collageImg{
